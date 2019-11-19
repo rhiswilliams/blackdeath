@@ -53,3 +53,10 @@ Click an option to run a function.
 
 
 LICENCE INFORMATION
+
+The program uses a GNU General Public License. Further information can be found by reading the LICENSE document
+in this folder.
+
+GITHUB
+
+All files can be found at https://github.com/rhiswilliams/blackdeath
