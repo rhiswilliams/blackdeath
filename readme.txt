@@ -1,9 +1,13 @@
 CONTENTS LIST
 
+- readme : information about the program
 - blackdeath.ipynb : Jupyter notebook version
 - blackdeath.py : alternative Py version
 - death.parishes : human population data
 - death.rats : rat population data
+- Reflection.pdf : reflection on development process
+- Program_Flow.pdf: UML showing flow of code
+- LICENSE : program license information
 - Previous Versions folder : 5 older versions of the project throughout its development
 
 

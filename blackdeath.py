@@ -13,6 +13,7 @@ matplotlib.use('TkAgg')
 from matplotlib import colors
 import tkinter
 from tkinter import simpledialog
+import timeit
 
 # Create lists
 population = []
@@ -215,4 +216,5 @@ model_menu.add_command(label="Show total deaths", command=total_deaths)
 model_menu.add_command(label="Save deaths data as txt", command=maketxt)
 model_menu.add_command(label="Exit", command=close_window)
 
+timeit.timeit()
 tkinter.mainloop()
