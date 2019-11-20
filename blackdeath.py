@@ -13,7 +13,12 @@ matplotlib.use('TkAgg')
 from matplotlib import colors
 import tkinter
 from tkinter import simpledialog
-import timeit
+# import time
+
+
+# EFFICIENCY TEST START
+# Test time - start
+# start = time.clock()
 
 # Create lists
 population = []
@@ -216,5 +221,9 @@ model_menu.add_command(label="Show total deaths", command=total_deaths)
 model_menu.add_command(label="Save deaths data as txt", command=maketxt)
 model_menu.add_command(label="Exit", command=close_window)
 
-timeit.timeit()
 tkinter.mainloop()
+
+# EFFICIENCY TEST END
+# Test time - end and print
+# end = time.clock()
+# print("time = " + str(end - start))"""
